@@ -1,0 +1,43 @@
+:root {
+   --varSize: 20vh;
+}
+.ava_container {
+    display: grid;
+    grid-template: 1fr/repeat(3, 1fr);
+}
+
+.ava {
+    grid-area: ava;
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: calc(var(--varSize)/ -2);
+
+}
+
+.ava img {
+    width: var(--varSize) ;
+    height: var(--varSize);
+    border-radius: calc(var(--varSize)/ 2);
+}
+
+.description_container {
+    grid-area: d;
+    grid-row: 1;
+    grid-column: 3;
+}
+.third{
+    grid-area: th;
+    grid-row: 1;
+    grid-column: 1;
+    background-color: blue;
+    padding: 10px;
+}
+.status {
+    display: inline-block;
+    background-color: greenyellow;
+    padding: 3px;
+    user-select: none;
+}

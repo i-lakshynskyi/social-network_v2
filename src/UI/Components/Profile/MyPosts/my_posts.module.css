@@ -1,0 +1,31 @@
+
+
+.postContainer{
+    position: relative;
+    margin: 1vw;
+}
+.textarea textarea{
+    resize: none;
+    width: 26vw;
+    height: 10vh;
+    border: 0;
+    background-color: #1e4444;
+    color: white;
+    font-size: 1.5em;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.button button{
+    background-color: #0d1e44;
+    color: #b1dbe9;
+    border-radius: 2vh;
+    outline: none;
+    margin: 1vh;
+}
+.posts{
+    padding-left:1vw;
+}
+

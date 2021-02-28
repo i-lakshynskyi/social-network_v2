@@ -1,0 +1,66 @@
+
+.userPageContainer {
+    display: grid;
+    grid-template-rows: 3vh 1fr;
+    grid-template-columns: 1fr;
+    background: #91cbfc;
+}
+
+.usersContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    width: 23%;
+    margin: 1%;
+    margin-bottom: 0;
+    background-color: #c5864c;
+}
+
+.photo {
+    width: 10vh;
+    height: 10vh;
+    margin: 0.7%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttons button {
+    background-color: #699ccd;
+}
+
+.followUnfollow {
+    cursor: pointer;
+}
+.followUnfollow:disabled{
+    /*background-color: gray;*/
+}
+
+.pagesNumbersContainer {
+    background-color: #699ccd;
+    overflow: hidden;
+    font-size: 1.1vw;
+    cursor: pointer;
+    user-select: none;
+    padding-bottom: 5px;
+}
+
+.notSelectedPage {
+    margin: 3px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+    margin: 3px;
+}
+
+.preloader {
+    display: inline;
+    position: relative;
+    left: 30%;
+    top: 30%;
+    background: linear-gradient(to left, #99ff33 0%, #ffffff 69%);
+}

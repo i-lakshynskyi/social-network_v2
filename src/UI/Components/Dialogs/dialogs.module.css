@@ -1,0 +1,74 @@
+.dialogs_container {
+    display: grid;
+    grid-template-rows: 5vh 1fr;
+    grid-template-columns: 2fr 7fr;
+    grid-template-areas: "dic tac" "dic mc";
+    grid-gap: 1vh;
+    min-height: 100vh;
+}
+
+.dialogsItemsContainer {
+    grid-area: dic;
+}
+
+.dialogs_items {
+    padding: 1vw;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.5em;
+    background-color: lightblue;
+}
+
+.messages_container {
+    grid-area: mc;
+    position: relative;
+    background-color: lightblue;
+}
+
+.messageElements {
+    position: relative;
+}
+
+.smile {
+    width: 5vh;
+    height: 5vh;
+    background-color: yellow;
+    border-radius: 2.5vh;
+    display: inline;
+}
+
+.textAreaContainer {
+    grid-area: tac;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    border-radius: 2.5vh;
+}
+
+.textAreaContainer textarea {
+    resize: none;
+    width: 100%;
+    height: 90%;
+    border: 0;
+    background-color: #1e4444;
+    color: white;
+    font-size: 1.5em;
+}
+
+textarea:focus {
+    outline: none;
+    background-color: #236060;
+}
+
+.textAreaContainer button {
+    position: relative;
+    background-color: #0d1e44;
+    color: #b1dbe9;
+    width: 10%;
+    height: 90%;
+    border-radius: 30%;
+    outline: none;
+}
+

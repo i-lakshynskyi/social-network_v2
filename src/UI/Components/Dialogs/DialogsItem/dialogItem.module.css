@@ -1,0 +1,31 @@
+
+.dialogs_items {
+    padding: 1vw;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.5em;
+    background-color: lightblue;
+}
+
+.dialog .active {
+    color: darkslategray;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px white;
+    padding-left: 1vh;
+    font-family: FrankRuehl;
+}
+
+.dialog a:hover {
+    color: gray;
+    padding-left: 1vh;
+}
+
+.dialog img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.dialog a {
+    text-decoration: none;
+}

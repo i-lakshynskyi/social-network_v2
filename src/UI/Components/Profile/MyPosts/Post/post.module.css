@@ -1,0 +1,13 @@
+
+.item{
+    color: cornflowerblue;
+}
+.item img {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 40%;
+}
+.like{
+    color: red;
+    font-size: 1vw;
+}
